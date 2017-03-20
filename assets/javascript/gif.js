@@ -26,7 +26,8 @@ function renderButtons() {
 
 //when click on summerArray buttons, trigger request to Giphy API
  $(document).on("click", ".summerBtn", function(event){
-
+  
+       $("#gifs").empty();
 //seting the URL/end-point for Giphy API
 //search term changes dinamically when click on $(this)/different buttons
       var summerItem = $(this).attr("data-name");
@@ -44,7 +45,7 @@ function renderButtons() {
           console.log(response);
 
           var results = response.data;
-
+               
 //get the data I need from the response to display on the page
 		          for (var i = 0; i < results.length; i++) {
 

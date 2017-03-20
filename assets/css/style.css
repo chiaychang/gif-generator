@@ -16,13 +16,14 @@ body {
 
 
 #gifs {
-    display: inline-box;
+  display: inline-box;
 	vertical-align: top;
 	position: relative;
 }
 
 .item {
 	float: left;
+  margin: 2px;
 }
 
 
