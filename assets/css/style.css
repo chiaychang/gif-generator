@@ -1,0 +1,87 @@
+body {
+	background-color: #96ceb4;
+	box-sizing: border-box;
+
+}
+
+.jumbotron {
+	margin: 40px;
+
+}
+
+.summerBtn {
+	margin: 4px;
+	margin-bottom: 7px;
+}
+
+
+#gifs {
+    display: inline-box;
+	vertical-align: top;
+	position: relative;
+}
+
+.item {
+	float: left;
+}
+
+
+.rating {
+	position: absolute;
+	background-color: #ff6f69;
+	z-index: 99;
+	width: auto;
+	margin-left: -150px;
+	color: #ffcc5c;
+	border-radius: 5px;
+
+}
+
+#submit-btn {
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.images {
+	height: 180px;
+	width: 230px;
+}
+
+
+#ocean{
+  position:absolute;
+  width:70%;
+  min-height:100%;
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0, rgb(0,50,150)),
+  color-stop(0.50, rgb(0,150,255))
+  );
+}
+
+.wave{
+  background:#a8e3ff;
+  display:inline-block;
+  height:60%;
+  width:10px;
+  position:absolute;
+  -webkit-animation-name:             dostuff; 
+  -webkit-animation-duration:         3s; 
+  -webkit-animation-iteration-count:  infinite;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+
+@-webkit-keyframes dostuff{
+  0%{
+    height:60%;
+  }
+  50%{ 
+    height:40%;
+  }
+  100%{ 
+    height:60%;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello? Is it Summer yet?</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+   <div class="row text-center">
+         <div class=jumbotron style="background-color: #ffeead; color: #ff6f69; border: solid 4px #ffcc5c; border-radius: 12px; font-family: sans-serif;">  
+         <h1>Hello! Is it Summer yet?</h1>
+         <h4>(click on gifs to make them move/stop)</h4></div>
+             
+   </div>
+
+
+   <div class="row text-center">
+     <div id="buttons"> 
+     </div>	
+   </div>
+
+   
+   <div class="row text-center"> 
+   <form id="addForm">
+      <br>
+      <label for="addForm" style="color: #ff6f69; font-size: 20px; font-family: sans-serif; ">Add your summer item!</label>
+      <br>
+      <input type="text" id="summer-input"><br><br>
+      <button type="submit" class="btn btn-warning" id="submit-btn">Submit</button>
+    </form>
+   </div>
+	
+<div class="row">
+   <div id="gifs"></div>   
+</div>
+
+<!-- <div id="ocean"></div> -->
+
+</div>
+<!-- adding JavaScript and jQuery -->
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+ <script type="text/javascript" src="assets/javascript/gif.js"></script>
+
+</body>
+</html>
+
