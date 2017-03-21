@@ -1,6 +1,6 @@
 // Initial array of summer items
-var summerArray = ["beach", "summer", "watermelon", "pina colada", "bikini","pug on the beach"];
-
+var summerArray = ["Sun Tan","Pug on the Beach","Summer","Pina Colada","Surfing","Bikini"];
+var audio = new Audio("assets/The Shins Australia.mp3");
 
 $(document).ready(function() {
 
@@ -114,6 +114,6 @@ for(var i = 0; i < waveCount; i++){
 }
 
 ocean.appendChild(docFrag);
-
+audio.play();
 
 
